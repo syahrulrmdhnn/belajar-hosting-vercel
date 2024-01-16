@@ -1,0 +1,228 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kalkulator {
+    margin-right: 20px;
+    background-color: grey;
+    display: grid;
+    width: 210px;
+    border: 3px solid black;
+    border-radius: 7px;
+    padding: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-areas: 
+        "A A A A"
+        "B C D E"
+        "F G H E"
+        "I J K L"
+        "M N N L";
+        column-gap: 10px;
+        row-gap: 10px;
+}
+
+.tampilan {
+    grid-area: A;
+    background: green;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.satu {
+    grid-area: B;
+    background: rgb(255, 0, 136);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dua {
+    grid-area: C;
+    background: rgb(255, 0, 136);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tiga {
+    grid-area: D;
+    background: rgb(255, 0, 136);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plus {
+    grid-area: E;
+    background: rgb(255, 0, 136);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.empat {
+    grid-area: F;
+    background: rgb(255, 0, 136);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lima {
+    grid-area: G;
+    background: rgb(255, 0, 136);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enam {
+    grid-area: H;
+    background: rgb(255, 0, 136);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tujuh {
+    grid-area: I;
+    background: rgb(255, 0, 136);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delapan {
+    grid-area: J;
+    background: rgb(255, 0, 136);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sembilan {
+    grid-area: K;
+    background: rgb(255, 0, 136);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.min {
+    grid-area: L;
+    background: rgb(255, 0, 136);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nol {
+    grid-area: M;
+    background: rgb(255, 0, 136);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.samaDengan {
+    grid-area: N;
+    background: rgb(255, 0, 136);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.button:active{
+    background: grey;
+}
+
+/* tugas ke 2 */
+.container {
+    display: grid;
+    grid-template-rows: 280px 100px;
+    width: 300px;
+    border: 3px solid rgb(255, 255, 255);
+    background: rgb(255, 0, 0);
+    margin-left: 525px;
+    margin-top: 100px;
+    border-radius: 50px;      
+    box-shadow: 0 0 2px 2px rgb(0, 0, 0);      
+}
+.foto {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+img {
+    border-radius: 50px;
+    width: 250px;
+    height: 250px;
+}
+.kata {
+    font-size: 18px;
+    margin-left: 20px;
+    font-style: oblique;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.kata2 {
+    color: white;
+    width: 80px;
+    margin-top: -72px;
+    margin-left: 20px;
+}
+.kata3 {
+    background: rgb(255, 93, 93);
+    color: rgb(255, 255, 255);
+    margin-top: -45px;
+    width: 80px;
+    height: 15px;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 20px;
+    border-radius: 100px;
+}
+.play {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    margin-left: 178px;
+    margin-top: -65px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+p {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 3px;
+}
+.play:hover {
+    background-color: white;
+    color: black;
+}
